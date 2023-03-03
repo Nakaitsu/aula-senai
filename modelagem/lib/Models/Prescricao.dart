@@ -1,5 +1,5 @@
 class Prescricao {
-  int? id;
+  late int id;
   int idMedicamento;
   String posologia;
   static List<Prescricao> Lista = [];

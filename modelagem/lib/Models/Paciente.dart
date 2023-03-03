@@ -1,5 +1,5 @@
 class Paciente {
-  int? id;
+  late int id;
   String nome;
   static List<Paciente> Lista = [];
 

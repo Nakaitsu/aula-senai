@@ -13,12 +13,14 @@ class AcoesMenuCadastros {
 }
 
 class AcoesMenuRelatorio {
-  static int get PACIENTE => 1;
+  static int get CONSULTA => 1;
   static int get MEDICO => 2;
   static int get MEDICAMENTO_MAIS_UTILIZADO => 3;
   static int get VOLTAR => 4;
 }
 
 class Menus {
-
+  static int get PRINCIPAL => 1;
+  static int get CADASTROS => 2;
+  static int get RELATORIOS => 3;
 }

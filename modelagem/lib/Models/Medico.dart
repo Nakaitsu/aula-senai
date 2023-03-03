@@ -1,6 +1,7 @@
 class Medico {
-  int? id;
+  late int id;
   String nome;
+  int atendimentos = 0;
   static List<Medico> Lista = [];
 
   Medico(this.nome);
