@@ -137,7 +137,7 @@ void main(List<String> arguments) {
 
 void MenuRelatorios() {
   [
-    'Menu Relatório',
+    '--Menu Relatório--',
     '[1] - Exibir dados da consulta por paciente.',
     '[2] - Exibir dados da consulta por médico.',
     '[3] - Exibir medicamento mais utilizado.',
@@ -147,17 +147,17 @@ void MenuRelatorios() {
 
 void MenuPrincipal() {
   [
-    'Menu Principal'
-    '[1] - Cadastros.'
-    '[2] - Registrar Consulta e Prescrição.'
-    '[3] - Relatórios.'
+    '--Menu Principal--',
+    '[1] - Cadastros.',
+    '[2] - Registrar Consulta e Prescrição.',
+    '[3] - Relatórios.',
     '[4] - Sair.'
   ].forEach(print);
 }
 
 void MenuCadastros() {
   [
-    'Menu de Cadastros',
+    '--Menu de Cadastros--',
     '[1] - Paciente.',
     '[2] - Médico.',
     '[3] - Medicamento.',
